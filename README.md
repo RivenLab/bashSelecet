@@ -1,7 +1,7 @@
 # BashSelect.sh
 ## Easy to use select UI for `bash`
 
-> BashSelect.sh is a simple bash script that let you display a small UI in which you can navigate with the arrow keys.
+> `bash-select.sh` is a simple bash script that let you display a small UI in which you can navigate with the arrow keys.
 To select an option you just have to press `ENTER`
 
 
