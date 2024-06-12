@@ -5,7 +5,6 @@
 To select an option you just have to press `ENTER`
 
 
-[![](https://raw.githubusercontent.com/JulianGransee/BashSelect.sh/main/options.gif)](https://github.com/GermanJag/BashSelect.sh)
 
 ---
 
@@ -14,7 +13,7 @@ To select an option you just have to press `ENTER`
 ```bash
 #!/bin/bash
 
-source <(curl -s https://raw.githubusercontent.com/RivenLab/BashSelect/main/BashSelect) #sourcing the script so you can use the function "bashSelect" afterwards
+source <(curl -s https://raw.githubusercontent.com/RivenLab/bashSelecet/main/bash-select.sh) #sourcing the script so you can use the function "bashSelect" afterwards
 source bash-select.sh
 export OPTIONS=("option 1" "option 2" "option 3")
 
