@@ -9,33 +9,14 @@ To select an option you just have to press `ENTER`
 
 ---
 
-### Usage
-
-#### Basic usage
-1. Copy the script to your code or sourcing it
- ```bash
-    source BashSelect.sh
- ```
- 2. Export your options
- ```bash
-    export OPTIONS=("option 1" "option 2" "option 3")
- ```     
- 3. Run the function
- ```bash
-    bashSelect
- ```
- 4. Get the result (starting at zero)
- ```bash
-    echo $?
- ```    
-
-
 #### Usage in a script
 
 ```bash
 #!/bin/bash
 
 source <(curl -s https://raw.githubusercontent.com/RivenLab/BashSelect/main/BashSelect) #sourcing the script so you can use the function "bashSelect" afterwards
+source bash-select.sh
+export OPTIONS=("option 1" "option 2" "option 3")
 
 export OPTIONS=("say hello" "say bye" "exit") #set the different options
 
