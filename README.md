@@ -10,11 +10,16 @@ To select an option you just have to press `ENTER`
 
 #### Usage in a script
 
-```bash
-#!/bin/bash
-
+Source the file
+```
 source <(curl -s https://raw.githubusercontent.com/RivenLab/bashSelecet/main/bash-select.sh) #sourcing the script so you can use the function "bashSelect" afterwards
+```
+OR
+```
 source bash-select.sh
+```
+Then
+```
 export OPTIONS=("option 1" "option 2" "option 3")
 
 export OPTIONS=("say hello" "say bye" "exit") #set the different options
